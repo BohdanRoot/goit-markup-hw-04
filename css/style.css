@@ -26,14 +26,15 @@ ul, ol {
     
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
 }
 
 .header-container{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    
     display: flex;
     gap: 332px;
     align-items: center;
@@ -85,21 +86,26 @@ ul, ol {
     letter-spacing:0.02em;
     display: flex;
     padding: 24px 0
-    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .nav-link:hover,
+
 .nav-link:focus{
     color: #404bbf;
 }
 
 .address{
+    
     font-style: normal;
 }
 
 .address-list {
     display: flex;
     gap: 40px;
+    margin-right: 156px;
     }
 
 .address-item{
@@ -114,9 +120,12 @@ ul, ol {
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
+
 .address-link:focus{
     color: #404bbf;
 }
@@ -128,10 +137,7 @@ ul, ol {
 /*------------------------------*/
 /*------------MAIN-H1-BUTN------*/
 
-.hero{
-    padding: 188px 0;
-    
-}
+.hero{}
 
 .hero-container{
 width: 1440px;
@@ -174,10 +180,15 @@ padding: 188px 472px 292px 472px;
     padding:16px 32px 16px 32px;
     display: block;
     min-width: 169px;
+    margin-left: 165px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover{
-    background-color: #404BBF}
+    background-color: #404BBF
+}
 .hero-btn:focus{
     background:  #404BBF;
     }
@@ -207,14 +218,11 @@ margin: 0 auto;
 }
 
 .strategy-item-background{
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    border: 1px solid  #8E8F99;
-    background:  #F4F4FD;
 }
 
-.strategy-item-icons{}
+.strategy-item-icons{
+    display: flex;
+}
 
 .strategy-container{
     width: 1158px;
