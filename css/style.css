@@ -259,7 +259,8 @@ margin: 0 auto;
 
 .strategy-item-icons{
     display: flex;
-    margin-bottom: 32px;
+    padding: 24px, 100px;
+    
 }
 
 .strategy-container{
