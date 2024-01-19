@@ -245,11 +245,17 @@ margin: 0 auto;
     overflow: hidden    
 }
 
-.strategy-item-background{
-    width: 264px;
+.strategy-icons-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
 }
+
+
 
 .strategy-item-icons{
     display: flex;
