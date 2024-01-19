@@ -350,7 +350,9 @@ margin: 0 auto;
 .team-item { 
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 3 * 24) / 4);
-    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -360,6 +362,40 @@ margin: 0 auto;
 }
 .titel-team{
     padding: 32px 0;
+    gap: 8px;
+}
+
+.team-soc{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.team-soc-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.soc-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+
+.soc-icon:hover{
+    background-color: #404bbf;
+}
+.soc-icon:focus{
+    background-color: #404bbf;
+}
+
+.icon-mesang{
+    fill: #f4f4fd;
 }
 
 .team-titel {
