@@ -162,10 +162,10 @@ ul, ol {
     width: 1440px;
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office-1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    block-size: cover;
+    background-size: cover;
 }
 
 .hero-container{
