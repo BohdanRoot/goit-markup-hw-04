@@ -434,8 +434,7 @@ margin: 0 auto;
 /*------------MAIN-PORTFOLIO--------*/
 
 .section-portfolio{ 
-    padding-bottom: 120px;
-
+    
 }
 
 
@@ -445,6 +444,7 @@ margin: 0 auto;
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 120px;
 }
 
 .portfolio {
@@ -455,7 +455,7 @@ margin: 0 auto;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 .list-potrfolio{
